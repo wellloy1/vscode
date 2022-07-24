@@ -1,0 +1,35 @@
+{
+  // VS Code:
+  "workbench.colorTheme": "Visual Studio Dark",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+
+  // Linter, formatter:
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier, как форматтер по умолчанию
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true // работает аналогично eslint --fix
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false
+
+  // "launch": {
+  //     "configurations": [
+  //     {
+  //         "type": "lldb",
+  //         "request": "launch",
+  //         "name": "Cargo launch",
+  //         "cargo": {
+  //             "args": [
+  //                 "build",
+  //                 "--lib"
+  //             ]
+  //         },
+  //         "program": "${cargo:program}",
+  //         "args": []
+  //     }
+  //     ]
+  // },
+}
